@@ -1,26 +1,30 @@
 h1{
-font-size:2.3em;
+font-size:2.5em;
 text-align:center;
-color: #FF7A41 ;
-}
-div.scrollmenu{
-background-color:#71FF4D;
-overflow:auto;
-white-space:nowrap;}
-
-div.scrollmenu a {
-  display:inline-block;
-  color:black;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+color: #FFB07F ;
 }
 
-body{
-  background-color: #60DAFF;
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
 }
 
-div.scrollmenu a:hover{
-  background-color: #CAFF4D;
-  
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
 }
