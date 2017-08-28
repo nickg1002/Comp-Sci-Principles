@@ -22,9 +22,13 @@ color: #FFB07F ;
 }
 
 .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
+    background-color: #FFB07F; /* Add a hover color */
 }
 
+body{
+  font-size:1.3em;
+  
+}
 .active {
     background-color: #4CAF50; /* Add an active/current color */
 }
